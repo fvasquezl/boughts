@@ -79,7 +79,7 @@ class ImagesController extends Controller
         $images = Image::where('SKU',$id)->get();
         $arrImage=[];
 
-        for ($i = 0; $i < 12; $i++) {
+        for ($i = 0; $i < 20; $i++) {
             $j=$i+1;
             $arrImage[$i]=['SKU'=> $id,
 		  'URL'=> env('PHOTOS_URL')."/no_image.png",

@@ -165,7 +165,7 @@ function getImages(sku){
     let imageNum='';
     let arrayImages ='';
 
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 20; i++) {
             if(images[i].ImageExists){
                 myRows +=`<div class="row" data-id="div-${addzeros(i + 1, 3)}">
                 <div class="col-md-3">
